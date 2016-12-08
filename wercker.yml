@@ -6,6 +6,11 @@ dev:
         code: node app.js
         reload: true
 
+test:
+  steps:
+    - npm-install
+    - npm-test
+
 # Build definition
 build:
   # The steps that will be executed on build
